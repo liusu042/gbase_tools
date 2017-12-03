@@ -20,7 +20,7 @@ def check_length_for_lines(filename):
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print "usage: python $0 filename" % sys.argv[1]
+        print "usage: python %s filename" % sys.argv[1]
         sys.exit(1)
     result = check_length_for_lines(sys.argv[1])
     for k in result:
